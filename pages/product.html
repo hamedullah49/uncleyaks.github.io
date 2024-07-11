@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - UncleYaks</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap rel=stylesheet">
+    <link rel="stylesheet" href="../styles/font-awsome/css/solid.min.css">
+    <link rel="stylesheet" href="../styles/font-awsome/css/regular.min.css">
+    <link rel="stylesheet" href="../styles/font-awsome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../styles/product.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="/images/Logotop.png" width="130px" height="50">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/product.html">Product</a></li>
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/contact%20us.html">Contact Us</a></li>
+                    <li><a href="/pages/form.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="/images/download%20(1).png" width="30px" height="30px">
+            <img src="/images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option selected>Default</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+
+
+        <div class="products">
+
+            <div class="product-card">
+                <img class="card-image" src="/images/MT1.jpeg">
+                <div class="card-content">
+                    <h4>Mens Trousers</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/FT3.jpeg">
+                <div class="card-content">
+                <h4>Ladies Denim</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/FMG2.png">
+                <div class="card-content">
+                <h4>Ladies Two piece</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/MTT5.jpeg">
+                <div class="card-content">
+                <h4>Mens Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/Ankara.jpg">
+                <div class="card-content">
+                <h4>Ankara</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/Mens%20Native.jpg">
+                <div class="card-content">
+                <h4>Men's Native</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/MS5.png">
+                <div class="card-content">
+                <h4>Leather Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/hills.png">
+                <div class="card-content">
+                <h4>Heels</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <img class="card-image" src="/images/smart%20tv.jpeg">
+                <div class="card-content">
+                <h4>Smart Television</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <img class="card-image" src="/images/laptop%201.jpg">
+                <div class="card-content">
+                <h4>Laptop</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <img class="card-image" src="/images/Phone.jpeg">
+                <div class="card-content">
+                    <h4>Phone</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <img class="card-image" src="/images/smart%20watch.jpeg">
+                <div class="card-content">
+                <h4>Smart Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <img class="card-image" src="/images/dining%20table.jpeg">
+                <div class="card-content">
+                <h4>Dining Table</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="card-image" src="/images/fridge.jpg">
+                <div class="card-content">
+                <h4>Fridge</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <img class="card-image" src="/images/Gas%20cooker.png">
+                <div class="card-content">
+                <h4>Table Gas-Cooker</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <img class="card-image" src="/images/non-stick%20pots2.png">
+                <div class="card-content">
+                    <h4>Set of Non-Stick Pots</h4>
+                    <div class="rating">
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa fa-solid fa-star"> </i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="addtocart.html" type="" class="card-btn">
+                        <div class="btn-content"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+
+    </div>
+
+
+    <!---------- footer -------->
+    <div class="footer">
+        <div class="cotainer">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile devices</p>
+                    <div class="app-logo">
+                        <img src="/images/playstore%20blck.jpg">
+                        <img src="/images/app%20store%20blck.jpg">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/uncleyaks%20blk.jpg">
+                    <p>Our purpose is to always make you look good and classy</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Bolg Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Tiktok</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2024 - CST/17/COM/00999 Final Year Project</p>
+        </div>
+    </div>
+    <!----------js fot toggle menu----------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

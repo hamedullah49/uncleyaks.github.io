@@ -5,10 +5,11 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans','inter','Poppins', sans-serif;
 }
 
 .navbar{
+    position: sticky;
     display: flex;
     align-items: center;
     padding: 0px;
@@ -27,7 +28,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #555;
+    color: #202020;
 }
 p{
     color: #555;
@@ -35,8 +36,7 @@ p{
 .container{
     max-width: 1000px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0 5%;
 }
 .row{
     display: flex;
@@ -61,8 +61,8 @@ p{
     display: inline-block;
     background: #ff523b;
     color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
+    padding: 10px 30px;
+    margin-top: 30px;
     border-radius: 30px;
     transition: background 0.5s;
 }
@@ -81,13 +81,13 @@ p{
     margin: 70px 0;
 }
 .col-3{
-    flex-basis: 30p%;
+    flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
 }
 .col-3 img{
-    margin-bottom: auto
-    padding: inherit
+    margin-bottom: auto;
+    padding: inherit;
     width: 100%;
 }
 .small-container{
@@ -157,7 +157,7 @@ p{
 
 /*--------brands ---------*/
 .brands{
-    margin: 100px auto:
+    margin: 100px auto;
 }
 .col-5{
     flex-basis: 20%;
@@ -189,16 +189,16 @@ footerwrap{
 }
 .footer{
     background: #000;
-    color: #8a8a8a;
+    color: #bbbbbb;
     font-size: 14px;
     padding: 60px 0 20px;
 }
 .footer p{
-    color: #8a8a8a;
+    color: #bbbbbb;
 }
 .footer h3{
-    color: #fff;
-    margin-bottom: 20px;
+    color: white;
+    margin-bottom: 5px;
 }
 .footer-col-1, .footer-col-2, footer-col-3, footer-col-4{
     min-width: 250px;
@@ -235,9 +235,11 @@ ul{
     border: none;
     background: #b5b5b5;
     height: 1px;
-    margin: 20px;
+    margin: 2% 5%;
 }
 .Copyright{
+    font-size: small;
+    font-weight: 100;
     text-align: center;
 }
 
@@ -246,6 +248,12 @@ ul{
     margin-left: 20px;
     display: none;
 }
+
+.footer-link{
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
 /*---------- media query for menu-icon -----------*/
 
 @media only screen and (max-width: 800px){
@@ -287,6 +295,7 @@ select:focus{
     outline: none;
 }
 .page-btn{
+    display: block;
     margin: 0 auto 80px;
 }
 .page-btn span{
@@ -463,9 +472,6 @@ h1{
     margin-bottom: 20px
 }
 
-
-
-
 /*---------- media query for less than 600 screen size -----------*/
 @media only screen and (max-width: 600px){
     .row{
@@ -488,4 +494,3 @@ h1{
         display: none;  
     }
 }
-
